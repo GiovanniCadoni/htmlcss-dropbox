@@ -6,6 +6,7 @@
 
 img{
     max-width: 100%;
+    display: block;
 }
 
 body{
@@ -36,6 +37,10 @@ footer a{
     color: white;
 }
 
+.button-per.bg-blue{
+    color: white;
+}
+
 /*COMMON*/
 h1{
     margin-top: 20px;
@@ -53,6 +58,14 @@ h2{
 
 .space-top-40{
     margin-top: 40px;
+}
+
+.space-top-20{
+    margin-top: 20px;
+}
+
+.space-left-15{
+    margin-left: 15px;
 }
 
 .container-complete{
@@ -80,6 +93,7 @@ h2{
 }
 
 .button-per{
+    color: black;
     display: inline-block;
     border: 1px solid black;
     padding: 7px 15px;
@@ -92,6 +106,7 @@ h2{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -101,6 +116,10 @@ h2{
 
 .col-60{
     width: 60%;
+}
+
+.col-40{
+    width: 40%;
 }
 
 .col-30{
