@@ -10,16 +10,26 @@ img{
 
 body{
     font-family: 'Open Sans', sans-serif;
-    color: black;
 }
 
 li{
     list-style: none;
 }
 
-header a{
+body a{
     text-decoration: none;
+}
+
+header a{
     color: black;
+}
+
+footer a{
+    color: white;
+}
+
+.button-per,.bg-blue a{
+    color: white;
 }
 
 /*COMMON*/
@@ -49,9 +59,8 @@ h1{
     width: 70%;
     margin: auto;
     margin-top: 40px;
-    /*DEBUG*/
-    border: 2px solid red;
-    min-height: 240px;
+    /*DEBUG
+    border: 2px solid red;*/
 }
 
 .container-small{
@@ -65,6 +74,7 @@ h1{
 }
 
 .button-per{
+    display: inline-block;
     border: 1px solid black;
     padding: 7px 15px;
 }
@@ -86,7 +96,7 @@ h1{
 }
 
 .icon{
-    font-size: 40px;
+    font-size: 30px;
     color: black;
 }
 
@@ -173,9 +183,34 @@ h1{
 /*FOOTER*/
 footer{
     background-color: black;
+    color: white;
     width: 100%;
     margin-top: 80px;
     padding-top: 20px;
+    padding-bottom: 40px;
     /*DEBUG*/
     min-height: 160px;
+}
+
+.col-footer{
+    width: calc(100% / 5);
+}
+
+.name-footer{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.a-footer{
+    margin-bottom: 8px;
+}
+
+.break{
+    margin-bottom: 25px;
+    width: 90px;
+}
+
+.language-footer{
+    font-size: 0.8rem;
 }
