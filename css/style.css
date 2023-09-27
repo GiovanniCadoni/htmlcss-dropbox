@@ -33,12 +33,17 @@ footer a{
     color: white;
 }
 
-.button-per,.bg-blue a{
+.button-per.bg-blue{
     color: white;
 }
 
-.button-per.bg-blue{
+.button-per.bg-blue a{
     color: white;
+}
+
+.button-per a{
+    text-decoration: none;
+    color: black;
 }
 
 /*COMMON*/
@@ -72,6 +77,14 @@ h2{
     margin-left: 15px;
 }
 
+.space-left-30{
+    margin-left: 30px;
+}
+
+.space-left-45{
+    margin-left: 45px;
+}
+
 .space-left-250{
     margin-left: 250px
 }
@@ -81,6 +94,10 @@ h2{
 }
 
 .container-complete{
+    width: 100%;
+}
+
+.container-business{
     width: 100%;
     min-height: 280px;
 }
@@ -95,6 +112,11 @@ h2{
     width: 60%;
     margin: auto;
     margin-top: 100px;
+}
+
+.container-text{
+    width: 60%;
+    margin: auto;
 }
 
 .button-per{
@@ -126,6 +148,7 @@ h2{
 
 .col-40{
     width: 40%;
+    padding: 40px 40px;
 }
 
 .col-30{
@@ -188,6 +211,10 @@ h2{
 
 .more-border{
     border: 10px solid #d1e9cd;
+}
+
+.button-per:hover{
+    filter: brightness(1.2);
 }
 
 /*HEADER*/
@@ -273,6 +300,11 @@ h2{
     padding: 0 15px;
 }
 
+.name-contact{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .price-plan{
     font-weight: bold;
     margin-top: 15px;
@@ -288,6 +320,10 @@ h2{
 .info-plan{
     margin-top: 10px;
     padding: 0 15px;
+}
+
+.info-contact{
+    margin-top: 20px;
 }
 
 .try-plan{
